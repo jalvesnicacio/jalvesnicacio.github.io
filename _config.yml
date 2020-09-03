@@ -85,8 +85,8 @@ author:
   bio              : "Your biography for the left-hand sidebar"
   location         : "Saguenay, QC, CA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=VzfPAUQAAAAJ&hl=pt-BR&oi=ao"
   email            :
   researchgate     :  "https://www.researchgate.net/profile/Jalves_Nicacio2"
   uri              :
