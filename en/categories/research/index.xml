@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research on Jalves Nicacio</title>
+    <link>https://jalvesnicacio.github.io/en/categories/research/</link>
+    <description>Recent content in research on Jalves Nicacio</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://jalvesnicacio.github.io/en/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Support for citations from GitHub repositories.</title>
+      <link>https://jalvesnicacio.github.io/en/post/github-citations/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jalvesnicacio.github.io/en/post/github-citations/</guid>
+      <description>&lt;h2 id=&#34;how-do-you-make-it-easier-for-others-to-cite-your-work&#34;&gt;How do you make it easier for others to cite your work?&lt;/h2&gt;
+&lt;p&gt;In academic work, we often develop prototypes or make data visualizations available through repositories. One way we make these research artifacts available is through the GitHub platform, which allows us not only to make software, prototypes, or data publicly available, but also to control their versioning.&lt;/p&gt;
+&lt;p&gt;However, when we write an article and want to reference a GitHub repository, it can be a bit difficult to know how best to reference these repositories. With this in mind, Github has recently created a way to officially support citations to the data or code repository. This new feature, developed by GitHub, allows researchers and academics to inform the community and interested parties on how to properly cite their repositories, especially in scientific articles.&lt;/p&gt;
+&lt;p&gt;To do so, researchers must add a new file to their repository: CITATION.cff. According to &lt;a href=&#34;https://github.blog/2021-08-19-enhanced-support-citations-github/&#34;&gt;Arfon Smith&lt;/a&gt;, a member of the Github team, the information in this file is used to create convenient APA or BibTeX-style citation links that can be referenced by others.&lt;/p&gt;
+&lt;p&gt;To enable this feature in your repository, you can simply create a file named CITATION.cff in your repository. Use the example below as a template for your file:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cff-version: 1.2.0
+message: &amp;#34;If you use this software, please cite it as below.&amp;#34;
+authors:
+  - family-names: Druskat
+    given-names: Stephan
+    orcid: https://orcid.org/0000-0003-4925-7248
+title: &amp;#34;My Research Software&amp;#34;
+version: 2.0.4
+doi: 10.5281/zenodo.1234
+date-released: 2021-08-11
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can also use the &lt;a href=&#34;https://citation-file-format.github.io/cff-initializer-javascript/&#34;&gt;cffinit&lt;/a&gt; website to fill in your citation file information. You can get more information about the cff file format on this page: &lt;a href=&#34;https://citation-file-format.github.io/&#34;&gt;What is a CITATION.cff file?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;cffinit-screen.png&#34; alt=&#34;Cffinit website screenshot&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
