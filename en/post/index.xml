@@ -18,7 +18,9 @@
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://jalvesnicacio.github.io/en/post/accessibility/</guid>
-      <description>&lt;h2 id=&#34;the-ever-evolving-web&#34;&gt;The Ever-Evolving Web&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This article is drawn from the first chapter of my book, &amp;ldquo;Web Accessibility Techniques,&amp;rdquo; which I&amp;rsquo;ve adapted into a series focused on digital accessibility. While the original book was written in Portuguese, this series will be made available in both English and French. Through this series, we aim to shed light on the multifaceted challenges and solutions surrounding web accessibility, a cornerstone of inclusive digital environments.&lt;/p&gt;
+&lt;h2 id=&#34;the-ever-evolving-web&#34;&gt;The Ever-Evolving Web&lt;/h2&gt;
 &lt;p&gt;The Internet, with its myriad components like email, websites, servers, and browsers, can be bewildering, even for those who have grown up in the digital age. Its constant evolution since inception has dramatically transformed how we connect, share information, solve problems, study, or entertain ourselves. Increasingly, the Web is replacing traditional services such as mail and telephony, underscoring its significance in our daily lives.&lt;/p&gt;
 &lt;h2 id=&#34;highlighting-the-inaccessibility-issue&#34;&gt;Highlighting the Inaccessibility Issue&lt;/h2&gt;
 &lt;p&gt;Despite its vast potential, the Web&amp;rsquo;s accessibility issues often go unnoticed, affecting individuals who could benefit from its services. Consider the following scenarios highlighting the diverse challenges faced by users:&lt;/p&gt;

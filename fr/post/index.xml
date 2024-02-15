@@ -18,7 +18,9 @@
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://jalvesnicacio.github.io/fr/post/accessibility/</guid>
-      <description>&lt;h2 id=&#34;le-web-en-constante-évolution&#34;&gt;Le Web en constante évolution&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Cet article est extrait du premier chapitre de mon livre, &amp;ldquo;Techniques d&amp;rsquo;Accessibilité Web&amp;rdquo;, que j&amp;rsquo;ai choisi d&amp;rsquo;adapter en une série dédiée à l&amp;rsquo;accessibilité numérique. Bien que le livre original soit en portugais, cette série d&amp;rsquo;articles sera disponible en anglais et en français. À travers cette série, nous aspirons à illuminer les nombreux défis et solutions relatifs à l&amp;rsquo;accessibilité web, un fondement essentiel des milieux numériques inclusifs.&lt;/p&gt;
+&lt;h2 id=&#34;le-web-en-constante-évolution&#34;&gt;Le Web en constante évolution&lt;/h2&gt;
 &lt;p&gt;Internet, avec ses nombreux composants comme le courrier électronique, les sites Web, les serveurs et les navigateurs, peut être déroutant, même pour ceux qui ont grandi à l&amp;rsquo;ère numérique. Son évolution constante depuis sa création a radicalement transformé la manière dont nous nous connectons, partageons des informations, résolvons des problèmes, étudions ou nous divertissons. De plus en plus, le Web remplace les services traditionnels tels que la poste et la téléphonie, soulignant son importance dans notre vie quotidienne.&lt;/p&gt;
 &lt;h2 id=&#34;mise-en-évidence-du-problème-dinaccessibilité&#34;&gt;Mise en évidence du problème d&amp;rsquo;inaccessibilité&lt;/h2&gt;
 &lt;p&gt;Malgré son énorme potentiel, les problèmes d&amp;rsquo;accessibilité du Web passent souvent inaperçus, affectant les individus qui pourraient bénéficier de ses services. Considérez les scénarios suivants mettant en lumière les divers défis auxquels sont confrontés les utilisateurs :&lt;/p&gt;
