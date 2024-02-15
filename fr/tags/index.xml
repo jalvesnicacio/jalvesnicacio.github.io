@@ -7,10 +7,55 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-ca</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 12 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jalvesnicacio.github.io/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Architectural  diagram  consistency</title>
+      <link>https://jalvesnicacio.github.io/fr/tags/architectural-diagram-consistency/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jalvesnicacio.github.io/fr/tags/architectural-diagram-consistency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta-descriptor</title>
+      <link>https://jalvesnicacio.github.io/fr/tags/meta-descriptor/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jalvesnicacio.github.io/fr/tags/meta-descriptor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling  process</title>
+      <link>https://jalvesnicacio.github.io/fr/tags/modelling-process/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jalvesnicacio.github.io/fr/tags/modelling-process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>System  architecture</title>
+      <link>https://jalvesnicacio.github.io/fr/tags/system-architecture/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jalvesnicacio.github.io/fr/tags/system-architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>System  descriptors</title>
+      <link>https://jalvesnicacio.github.io/fr/tags/system-descriptors/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jalvesnicacio.github.io/fr/tags/system-descriptors/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>academia</title>
@@ -27,42 +72,6 @@
       <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://jalvesnicacio.github.io/fr/tags/accessibility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Architectural  diagram  consistency</title>
-      <link>https://jalvesnicacio.github.io/fr/tags/architectural-diagram-consistency/</link>
-      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://jalvesnicacio.github.io/fr/tags/architectural-diagram-consistency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modelling  process</title>
-      <link>https://jalvesnicacio.github.io/fr/tags/modelling-process/</link>
-      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://jalvesnicacio.github.io/fr/tags/modelling-process/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>System  architecture</title>
-      <link>https://jalvesnicacio.github.io/fr/tags/system-architecture/</link>
-      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://jalvesnicacio.github.io/fr/tags/system-architecture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>System  descriptors</title>
-      <link>https://jalvesnicacio.github.io/fr/tags/system-descriptors/</link>
-      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://jalvesnicacio.github.io/fr/tags/system-descriptors/</guid>
       <description></description>
     </item>
     

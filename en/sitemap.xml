@@ -185,7 +185,7 @@
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/authors/admin/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-ca"
@@ -197,8 +197,47 @@
                 href="https://jalvesnicacio.github.io/en/authors/admin/"
                 />
   </url><url>
+    <loc>https://jalvesnicacio.github.io/en/publication_types/1/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/publication_types/1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/publication_types/1/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/publication/sam-2022/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/publication/sam-2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/publication/sam-2022/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/tags/architectural-diagram-consistency/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/tags/architectural-diagram-consistency/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/tags/architectural-diagram-consistency/"
+                />
+  </url><url>
     <loc>https://jalvesnicacio.github.io/en/authors/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-ca"
@@ -208,6 +247,110 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://jalvesnicacio.github.io/en/authors/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/authors/fabio-petrillo/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/authors/fabio-petrillo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/authors/fabio-petrillo/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/tags/meta-descriptor/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/tags/meta-descriptor/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/tags/meta-descriptor/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/tags/modelling-process/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/tags/modelling-process/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/tags/modelling-process/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/publication_types/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/publication_types/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/publication/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/publication/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/tags/system-architecture/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/tags/system-architecture/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/tags/system-architecture/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/tags/system-descriptors/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/tags/system-descriptors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/tags/system-descriptors/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/tags/</loc>
+    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/tags/"
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/categories/</loc>
@@ -288,19 +431,6 @@
                 href="https://jalvesnicacio.github.io/en/tags/accessibility/"
                 />
   </url><url>
-    <loc>https://jalvesnicacio.github.io/en/tags/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/tags/"
-                />
-  </url><url>
     <loc>https://jalvesnicacio.github.io/en/categories/web-accessibility/</loc>
     <lastmod>2021-08-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -325,110 +455,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://jalvesnicacio.github.io/en/post/accessibility/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/publication_types/1/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/publication_types/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/publication_types/1/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/tags/architectural-diagram-consistency/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/tags/architectural-diagram-consistency/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/tags/architectural-diagram-consistency/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/authors/fabio-petrillo/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/authors/fabio-petrillo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/authors/fabio-petrillo/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/tags/modelling-process/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/tags/modelling-process/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/tags/modelling-process/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/publication_types/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/publication_types/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/publication/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/publication/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/tags/system-architecture/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/tags/system-architecture/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/tags/system-architecture/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/tags/system-descriptors/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/tags/system-descriptors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/tags/system-descriptors/"
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/publication/icpc-2021/</loc>
