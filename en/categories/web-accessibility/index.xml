@@ -1,41 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web accessibility on Jalves Nicacio</title>
+    <title>Web Accessibility on Jalves Nicacio</title>
     <link>https://jalvesnicacio.github.io/en/categories/web-accessibility/</link>
-    <description>Recent content in Web accessibility on Jalves Nicacio</description>
+    <description>Recent content in Web Accessibility on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 12 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jalvesnicacio.github.io/en/categories/web-accessibility/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>What is the Web accessibility problem?</title>
+      <title>What is the Web Accessibility Problem?</title>
       <link>https://jalvesnicacio.github.io/en/post/accessibility/</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://jalvesnicacio.github.io/en/post/accessibility/</guid>
-      <description>&lt;p&gt;Internet, email, website, home page, server, browser, links everywhere! Who has never been confused by all this technology? Even those born in the online generation can sometimes feel lost, because it is a technology that has been in constant development since its inception.&lt;/p&gt;
-&lt;p&gt;In fact, since the first time the world heard of the Web, nothing has been the same as before. The Internet and the Web, in turn, has been causing dramatic changes in the way people relate, exchange information, solve problems, study, or just have fun each year. Often, the Web replaces old services such as the post office and the telephone. Thus, there is no denying the importance of the Web these days.&lt;/p&gt;
-&lt;h2 id=&#34;the-problem-of-inaccessibility-to-web-pages&#34;&gt;The problem of inaccessibility to web pages&lt;/h2&gt;
-&lt;p&gt;This is a problem that goes unnoticed for a group of people trying to take advantage of the services offered by the Web. For a variety of reasons, a particular service or web page may sometimes be inaccessible to a person or groups of people.&lt;/p&gt;
-&lt;p&gt;For example, imagine the following cases:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Case 1:&lt;/strong&gt; John wants to do some shopping on an online sales site. Nothing complicated: he wants to buy some CDs and some books. On the website, he finds instructions explaining that discounted prices are in red. Everything would be fine except for one detail: John is colorblind and cannot distinguish the color red. The situation is complicated when John comes across a form where the required fields are also highlighted from the others by the color red.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Case 2:&lt;/strong&gt; Every time Sandra needs to go to the supermarket alone, she gets upset. Sandra has Down syndrome and has difficulty reading, mathematical calculations and abstract concepts. When choosing a product, she is confused by the various options and ends up losing control of how much she is spending.&lt;/p&gt;
-&lt;p&gt;Once a friend of hers introduced her to a website where she could make the same purchases she made at the supermarket over the internet. She tried the site a few times and soon discovered a number of difficulties: the site never made it clear what section she was in, nor how to find a particular product. In some sections the page layout changes completely and Sandra wonders if it&amp;rsquo;s still on the same site or not.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Case 3:&lt;/strong&gt; The first time Henry used a screen reader program was a shock! For the first time in a long time he felt that he could do something without anyone&amp;rsquo;s help. Henry is blind and has just been introduced to a program that can read all the text on the screen.&lt;/p&gt;
-&lt;p&gt;Just imagine how much he will be able to do now! Using the TAB key on the keyboard he can navigate from link to link and find what he wants. With this program, he will now be able to access web services, he can pay his bills, buy products, do research, send emails, etc.
-But his fascination didn&amp;rsquo;t last long. Henry soon discovered that not all sites allowed the screen reader to properly access their content.&lt;/p&gt;
-&lt;p&gt;All of these examples serve to highlight a reality experienced by many people around the world. When we deprive people of access to services and information available on the Web, we are creating a serious problem of social and digital exclusion. Look at it this way: For people without disabilities, web systems make life easier, but for those who cannot see, hear or walk, these the same systems make it possible to perform tasks that would otherwise require immense effort or even be impossible to perform.&lt;/p&gt;
-&lt;p&gt;So, what can we do to make the content of web pages and systems accessible to people with disabilities? In the next articles we will cover the main concepts that we need to know to adapt or build accessible websites.&lt;/p&gt;
-&lt;h2 id=&#34;for-whom-should-web-accessibility-be-important&#34;&gt;For whom should web accessibility be important?&lt;/h2&gt;
-&lt;p&gt;Not all people who publish content on the Web are connected to the IT area and, therefore, are not necessarily aware of the technologies used to build websites. However, everyone who publishes content on the Web, whether text, audio or video, should be concerned with the issue of accessibility.&lt;/p&gt;
-&lt;p&gt;So, even if you don&amp;rsquo;t know anything about HTML, CSS or any other web technology, you can still understand what are the critical points about a website&amp;rsquo;s accessibility. In addition, you can learn how to perform usability and accessibility tests or you can also contribute to the dissemination of this topic with friends and followers on your social networks.&lt;/p&gt;
-&lt;p&gt;Information technology, marketing and SEO managers should also read this book. Each in their area and for different reasons should be concerned with ensuring access to the products they develop. This attitude would bring several benefits, in addition to creating new business opportunities.&lt;/p&gt;
-&lt;p&gt;Programmers, web masters, web designers, usability consultants, people who own or manage websites and computer students must be concerned with learning how to guarantee access to people with disabilities. Easier than repairing a website that is not accessible is already building it taking into account that people with temporary or permanent disabilities will want to access this website.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;the-ever-evolving-web&#34;&gt;The Ever-Evolving Web&lt;/h2&gt;
+&lt;p&gt;The Internet, with its myriad components like email, websites, servers, and browsers, can be bewildering, even for those who have grown up in the digital age. Its constant evolution since inception has dramatically transformed how we connect, share information, solve problems, study, or entertain ourselves. Increasingly, the Web is replacing traditional services such as mail and telephony, underscoring its significance in our daily lives.&lt;/p&gt;
+&lt;h2 id=&#34;highlighting-the-inaccessibility-issue&#34;&gt;Highlighting the Inaccessibility Issue&lt;/h2&gt;
+&lt;p&gt;Despite its vast potential, the Web&amp;rsquo;s accessibility issues often go unnoticed, affecting individuals who could benefit from its services. Consider the following scenarios highlighting the diverse challenges faced by users:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;John&amp;rsquo;s Dilemma:&lt;/strong&gt; Colorblindness makes it impossible for John to distinguish discounted prices highlighted in red on an online shopping site, complicating his shopping experience.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sandra&amp;rsquo;s Struggle:&lt;/strong&gt; With Down syndrome, Sandra finds navigating the overwhelming options on a supermarket website difficult, exacerbating her challenges with reading and mathematical concepts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Henry&amp;rsquo;s Hope:&lt;/strong&gt; Blindness doesn&amp;rsquo;t stop Henry from exploring the Web with a screen reader, but not all sites are accessible, dampening his newfound independence.&lt;/p&gt;
+&lt;p&gt;These examples underline a stark reality: when we limit access to web services and information, we contribute to a broader issue of social and digital exclusion. Web systems simplify life for many, but for people with disabilities, they are essential tools that enable tasks that might otherwise be daunting or impossible.&lt;/p&gt;
+&lt;h2 id=&#34;towards-a-more-accessible-web&#34;&gt;Towards a More Accessible Web&lt;/h2&gt;
+&lt;p&gt;What steps can we take to ensure web pages and systems are accessible to individuals with disabilities? Future articles will delve into essential concepts, strategies, and practices to design and adapt websites for accessibility.&lt;/p&gt;
+&lt;h2 id=&#34;the-importance-of-web-accessibility&#34;&gt;The Importance of Web Accessibility&lt;/h2&gt;
+&lt;p&gt;Web accessibility should be a priority for everyone publishing content online, regardless of their familiarity with IT and web technologies. Understanding accessibility&amp;rsquo;s critical aspects, performing usability and accessibility tests, and promoting awareness are pivotal. IT professionals, marketers, SEO managers, programmers, webmasters, designers, usability consultants, and students must learn to ensure their digital offerings are accessible to all, including those with temporary or permanent disabilities. Building with accessibility in mind from the start is easier and more inclusive than retrofitting websites later.&lt;/p&gt;
 </description>
     </item>
     

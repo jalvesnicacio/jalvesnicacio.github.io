@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jalves Nicacio</title>
-    <link>https://jalvesnicacio.github.io/fr/post/</link>
-    <description>Recent content in Posts on Jalves Nicacio</description>
+    <title>Accessibilité Web on Jalves Nicacio</title>
+    <link>https://jalvesnicacio.github.io/fr/categories/accessibilite-web/</link>
+    <description>Recent content in Accessibilité Web on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-ca</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://jalvesnicacio.github.io/fr/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jalvesnicacio.github.io/fr/categories/accessibilite-web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -31,32 +31,6 @@
 &lt;h2 id=&#34;limportance-de-laccessibilité-web&#34;&gt;L&amp;rsquo;importance de l&amp;rsquo;accessibilité Web&lt;/h2&gt;
 &lt;p&gt;L&amp;rsquo;accessibilité Web devrait être une priorité pour tous ceux qui publient du contenu en ligne, indépendamment de leur connaissance des technologies informatiques et Web. Comprendre les aspects critiques de l&amp;rsquo;accessibilité, réaliser des tests d&amp;rsquo;utilisabilité et d&amp;rsquo;accessibilité, et promouvoir la sensibilisation sont essentiels.&lt;/p&gt;
 &lt;p&gt;Les professionnels de l&amp;rsquo;informatique, les marketeurs, les gestionnaires SEO, les programmeurs, les webmasters, les designers, les consultants en utilisabilité et les étudiants doivent apprendre à garantir que leurs offres numériques soient accessibles à tous, y compris à ceux qui ont des handicaps temporaires ou permanents. Construire en tenant compte de l&amp;rsquo;accessibilité dès le départ est plus facile et plus inclusif que de devoir adapter les sites Web ultérieurement.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Soutien pour les citations issues de dépôts GitHub.</title>
-      <link>https://jalvesnicacio.github.io/fr/post/github-citations/</link>
-      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://jalvesnicacio.github.io/fr/post/github-citations/</guid>
-      <description>&lt;h2 id=&#34;comment-faciliter-la-citation-de-votre-travail-par-les-autres-&#34;&gt;Comment faciliter la citation de votre travail par les autres ?&lt;/h2&gt;
-&lt;p&gt;Dans le travail académique, nous développons souvent des prototypes ou rendons des visualisations de données disponibles via des dépôts. Une manière de rendre ces artefacts de recherche disponibles est à travers la plateforme GitHub, qui nous permet non seulement de rendre publics des logiciels, prototypes, ou données, mais aussi de contrôler leur versionnement.&lt;/p&gt;
-&lt;p&gt;Cependant, lorsque nous écrivons un article et souhaitons référencer un dépôt GitHub, cela peut être un peu difficile de savoir comment mieux référencer ces dépôts. Avec cela à l&amp;rsquo;esprit, Github a récemment créé un moyen de soutenir officiellement les citations vers le dépôt de données ou de code. Cette nouvelle fonctionnalité, développée par GitHub, permet aux chercheurs et universitaires d&amp;rsquo;informer la communauté et les parties intéressées sur comment citer correctement leurs dépôts, spécialement dans les articles scientifiques.&lt;/p&gt;
-&lt;p&gt;Pour ce faire, les chercheurs doivent ajouter un nouveau fichier à leur dépôt : CITATION.cff. Selon &lt;a href=&#34;https://github.blog/2021-08-19-enhanced-support-citations-github/&#34;&gt;Arfon Smith&lt;/a&gt;, un membre de l&amp;rsquo;équipe Github, les informations dans ce fichier sont utilisées pour créer des liens de citation pratiques au style APA ou BibTeX qui peuvent être référencés par d&amp;rsquo;autres.&lt;/p&gt;
-&lt;p&gt;Pour activer cette fonctionnalité dans votre dépôt, vous pouvez simplement créer un fichier nommé CITATION.cff dans votre dépôt. Utilisez l&amp;rsquo;exemple ci-dessous comme modèle pour votre fichier :&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cff-version: 1.2.0
-message: &amp;#34;Si vous utilisez ce logiciel, veuillez le citer comme ci-dessous.&amp;#34;
-authors:
-  - family-names: Druskat
-    given-names: Stephan
-    orcid: https://orcid.org/0000-0003-4925-7248
-title: &amp;#34;Mon Logiciel de Recherche&amp;#34;
-version: 2.0.4
-doi: 10.5281/zenodo.1234
-date-released: 2021-08-11
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Vous pouvez également utiliser le site &lt;a href=&#34;https://citation-file-format.github.io/cff-initializer-javascript/&#34;&gt;cffinit&lt;/a&gt; pour remplir les informations de votre fichier de citation. Vous pouvez obtenir plus d&amp;rsquo;informations sur le format de fichier cff sur cette page : &lt;a href=&#34;https://citation-file-format.github.io/&#34;&gt;What is a CITATION.cff file?&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;cffinit-screen.png&#34; alt=&#34;Cffinit website screenshot&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

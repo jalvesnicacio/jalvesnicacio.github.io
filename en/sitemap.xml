@@ -185,7 +185,7 @@
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/authors/admin/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-ca"
@@ -195,6 +195,80 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://jalvesnicacio.github.io/en/authors/admin/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/tags/academia/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/tags/accessibility/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/authors/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/authors/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/categories/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/categories/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/post/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/post/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/tags/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/categories/web-accessibility/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jalvesnicacio.github.io/en/post/accessibility/</loc>
+    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/post/accessibility/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/post/accessibility/"
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/publication_types/1/</loc>
@@ -234,19 +308,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://jalvesnicacio.github.io/en/tags/architectural-diagram-consistency/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/authors/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/authors/"
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/authors/fabio-petrillo/</loc>
@@ -340,45 +401,6 @@
                 href="https://jalvesnicacio.github.io/en/tags/system-descriptors/"
                 />
   </url><url>
-    <loc>https://jalvesnicacio.github.io/en/tags/</loc>
-    <lastmod>2022-10-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/tags/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/categories/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/categories/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/post/</loc>
-    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/post/"
-                />
-  </url><url>
     <loc>https://jalvesnicacio.github.io/en/categories/research/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -403,58 +425,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://jalvesnicacio.github.io/en/post/github-citations/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/tags/academia/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/tags/academia/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/tags/academia/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/tags/accessibility/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/tags/accessibility/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/tags/accessibility/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/categories/web-accessibility/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/categories/web-accessibility/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/categories/web-accessibility/"
-                />
-  </url><url>
-    <loc>https://jalvesnicacio.github.io/en/post/accessibility/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-ca"
-                href="https://jalvesnicacio.github.io/fr/post/accessibility/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://jalvesnicacio.github.io/en/post/accessibility/"
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/publication/icpc-2021/</loc>
