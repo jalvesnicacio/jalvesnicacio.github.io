@@ -7,10 +7,57 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jalvesnicacio.github.io/en/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Essentials of Web Accessibility</title>
+      <link>https://jalvesnicacio.github.io/en/post/accessibility2/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jalvesnicacio.github.io/en/post/accessibility2/</guid>
+      <description>&lt;h1 id=&#34;the-essentials-of-web-accessibility&#34;&gt;The Essentials of Web Accessibility&lt;/h1&gt;
+&lt;p&gt;To effectively address web accessibility, it&amp;rsquo;s crucial to understand some basic concepts. Without this understanding, discussing the application of techniques in web page codes becomes less productive. These concepts are vital to recognize why certain sites are inaccessible to some people and what is being done to solve these issues.&lt;/p&gt;
+&lt;p&gt;In the digital age, where information and services are increasingly accessed online, the significance of web accessibility cannot be overstated. It stands not only as a technical requirement but as a fundamental right to ensure equal access for all, including those with disabilities. As we delve into the nuances of creating an inclusive online environment, it&amp;rsquo;s important to explore the roles of various web components—ranging from content creation to user interaction—and how they contribute to or hinder accessibility. By understanding these dynamics, we can begin to identify the barriers that prevent full participation in the digital world and the strategies to overcome them.&lt;/p&gt;
+&lt;p&gt;In the following sections, we will explore the definition of an &amp;ldquo;Accessible web,&amp;rdquo; unravel the misconceptions between the Internet and the web, and highlight the importance of making digital content available and usable for everyone. This journey through web accessibility essentials will not only enlighten us on the technical aspects but also inspire a shift in perspective towards a more inclusive digital future.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;what-does-accessible-web-mean&#34;&gt;What Does &amp;ldquo;Accessible Web&amp;rdquo; Mean?&lt;/h3&gt;
+&lt;p&gt;Initially, it&amp;rsquo;s important not to confuse the Internet with the web. Although closely related, they perform distinct functions. The Internet, with its military origins, aims to connect computers globally, serving as a &amp;ldquo;worldwide network of computers&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;On the other hand, the web emerged to facilitate the exchange of information beyond emails, overcoming compatibility barriers between different information systems. Thanks to Tim Berners-Lee, who created a standard for electronic documents at CERN, it became possible to share files on the Internet in a more structured way. Berners-Lee&amp;rsquo;s innovation included the use of URLs and the interlinking of documents, transforming the web into a vast web of information accessible through browsers.&lt;/p&gt;
+&lt;h3 id=&#34;and-the-term-accessible&#34;&gt;And the term &amp;ldquo;accessible&amp;rdquo;?&lt;/h3&gt;
+&lt;p&gt;&amp;ldquo;Accessible&amp;rdquo; often brings to mind issues of physical disability, but its meaning goes beyond, indicating something that is easy to obtain, use, or understand. Accessibility, therefore, must ensure that everyone, regardless of physical or cognitive limitations, can access content and services.&lt;/p&gt;
+&lt;p&gt;For example: not everything that is easy for an average adult is easy for a child, an elderly person, or a physically disabled person, and so on. Not everything accessible to a blind person is also accessible to a paraplegic or simply someone with a broken leg. Each person, regardless of whether they have a physical disability, has a different level of need to access something.&lt;/p&gt;
+&lt;p&gt;Therefore, when we say something is accessible, it should mean that anyone, regardless of their need, will have ease in entering, approaching, climbing, using, etc.&lt;/p&gt;
+&lt;h3 id=&#34;and-the-accessible-web&#34;&gt;And the &amp;ldquo;Accessible Web&amp;rdquo;?&lt;/h3&gt;
+&lt;p&gt;An accessible web aspires to be a space where everyone can access content and services, including automated systems like search engines. This concept also covers the adaptability of web pages to different devices, such as smartphones and TVs. Digital accessibility considers various factors that can obstruct access to web content.&lt;/p&gt;
+&lt;p&gt;In the following chapters, we will explore how to identify and solve accessibility problems on the web.&lt;/p&gt;
+&lt;h3 id=&#34;about-the-web-components-and-their-interdependence&#34;&gt;About the web components and their interdependence&lt;/h3&gt;
+&lt;p&gt;The web operates on the infrastructure of the Internet, consisting of cables, protocols, and devices. Beyond the Internet, the web is made of documents and systems (content), developers, content creation and validation tools, users, user agents (browsers and access devices), and assistive tools for people with special needs. The figure &amp;ldquo;&lt;a href=&#34;composants-web.jpg&#34;&gt;web components&lt;/a&gt;&amp;rdquo; illustrates the interdependence between these web components.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;web-components.jpg&#34; alt=&#34;Web components and their interdependence&#34; title=&#34;web components&#34;&gt;&lt;/p&gt;
+&lt;p&gt;For a comprehensive understanding of web accessibility, it is essential to know the components that constitute it and how they relate. This complex network includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Developers:&lt;/strong&gt; The digital architects who build the online world. They use a variety of creation and validation tools to produce web content, such as documents, videos, sites, and systems. Examples of these tools include code editors, development frameworks, and accessibility testing software, ensuring that the content meets global accessibility standards.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Content:&lt;/strong&gt; The heart of the web, ranging from text pages to multimedia and interactive applications. This content needs to be created accessibly to ensure that all users, regardless of their abilities, can access and interact with it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;User Agents:&lt;/strong&gt; The intermediaries between the content and the user. They include web browsers like Chrome, Firefox, and Safari, as well as specialized access devices, like smart TVs and voice assistants. User agents must be capable of interpreting and presenting content in an accessible manner.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Assistive Tools:&lt;/strong&gt; Essential for many users with limitations, these tools act as a bridge between the content and the user&amp;rsquo;s ability to access it. Screen readers, for example, convert text to speech, allowing blind or visually impaired people to access digital content. Other tools include specialized keyboards, switches, and voice recognition software.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The interaction between these components can be visualized as a chain of connections, where each link depends on the other to provide an accessible web experience. For instance, a developer might create an educational video and include captions and audio descriptions, using creation tools to ensure the content is accessible. This video, when published on the web, must be compatible with various user agents, from browsers to screen readers, ensuring all users, including those relying on assistive tools, can access the information.&lt;/p&gt;
+&lt;p&gt;The relationship between these components is crucial for accessibility. For example, the effectiveness of assistive tools depends on the support of browsers and developers&amp;rsquo; awareness of accessibility. Inaccessibility can arise when web content is not designed with all users in mind, including those who rely on keyboard navigation or screen readers.&lt;/p&gt;
+&lt;p&gt;The interdependence of these components highlights the importance of a web designed to be universally accessible, ensuring everyone can navigate, understand, and interact with web content effectively.&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
     
     <item>
       <title>What is the Web Accessibility Problem?</title>

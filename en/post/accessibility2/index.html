@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.117.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jalves Nicacio">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This article delves into the foundational concepts of web accessibility, distinguishing the Internet from the Web, and exploring the importance of creating accessible digital spaces for all users. It outlines the interdependent components that make up the web, emphasizing the need for universal design to ensure everyone can participate fully in the digital world.">
+
+  
+  <link rel="alternate" hreflang="fr" href="https://jalvesnicacio.github.io/fr/post/accessibility2/">
+  
+  <link rel="alternate" hreflang="en-us" href="https://jalvesnicacio.github.io/en/post/accessibility2/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#fc6f5c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.70f21e8c0d158a1bd5336ef971431345.css">
+
+  
+
+  
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'G-NS0E950WRL', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://jalvesnicacio.github.io/en/post/accessibility2/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@jalvesnicacio">
+  <meta property="twitter:creator" content="@jalvesnicacio">
+  
+  <meta property="og:site_name" content="Jalves Nicacio">
+  <meta property="og:url" content="https://jalvesnicacio.github.io/en/post/accessibility2/">
+  <meta property="og:title" content="The Essentials of Web Accessibility | Jalves Nicacio">
+  <meta property="og:description" content="This article delves into the foundational concepts of web accessibility, distinguishing the Internet from the Web, and exploring the importance of creating accessible digital spaces for all users. It outlines the interdependent components that make up the web, emphasizing the need for universal design to ensure everyone can participate fully in the digital world."><meta property="og:image" content="https://jalvesnicacio.github.io/en/post/accessibility2/featured.jpg">
+  <meta property="twitter:image" content="https://jalvesnicacio.github.io/en/post/accessibility2/featured.jpg"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2024-03-29T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2024-03-29T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>The Essentials of Web Accessibility | Jalves Nicacio</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/en/">Jalves Nicacio</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/en/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            <i class="fas fa-globe" aria-hidden="true"></i>
+            <span>English</span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://jalvesnicacio.github.io/fr/post/accessibility2/">
+                <span>Français</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article py-5" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container split-header">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+        <img class="img-fluid w-100" src="/en/post/accessibility2/featured_hu30b061798619543c8ea12d04ac03d086_341602_680x500_fill_q90_lanczos_smart1.jpg" itemprop="image" alt="">
+        <span
+          class="article-header-caption">Image credit: <a href="https://theamericangenius.com/business-marketing/gloves-that-translate-sign-language-in-real-time/"><strong>The American Genius</strong></a></span>
+    </div>
+    <div class="col-lg-8">
+      <h1 itemprop="name">The Essentials of Web Accessibility</h1>
+
+      
+      <p class="page-subtitle">Building Bridges to an Inclusive Digital World</p>
+      
+
+      
+
+
+
+<meta content="2024-03-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2024-03-29 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/en/authors/admin/">Jalves Nicacio</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date" style="float:right;">
+    
+    
+      
+    
+    <time>Mar 29, 2024</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    <a href="/en/categories/web-accessibility/">Web Accessibility</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://jalvesnicacio.github.io/en/post/accessibility2/&amp;text=The%20Essentials%20of%20Web%20Accessibility" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://jalvesnicacio.github.io/en/post/accessibility2/&amp;t=The%20Essentials%20of%20Web%20Accessibility" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=The%20Essentials%20of%20Web%20Accessibility&amp;body=https://jalvesnicacio.github.io/en/post/accessibility2/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://jalvesnicacio.github.io/en/post/accessibility2/&amp;title=The%20Essentials%20of%20Web%20Accessibility" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <h1 id="the-essentials-of-web-accessibility">The Essentials of Web Accessibility</h1>
+<p>To effectively address web accessibility, it&rsquo;s crucial to understand some basic concepts. Without this understanding, discussing the application of techniques in web page codes becomes less productive. These concepts are vital to recognize why certain sites are inaccessible to some people and what is being done to solve these issues.</p>
+<p>In the digital age, where information and services are increasingly accessed online, the significance of web accessibility cannot be overstated. It stands not only as a technical requirement but as a fundamental right to ensure equal access for all, including those with disabilities. As we delve into the nuances of creating an inclusive online environment, it&rsquo;s important to explore the roles of various web components—ranging from content creation to user interaction—and how they contribute to or hinder accessibility. By understanding these dynamics, we can begin to identify the barriers that prevent full participation in the digital world and the strategies to overcome them.</p>
+<p>In the following sections, we will explore the definition of an &ldquo;Accessible web,&rdquo; unravel the misconceptions between the Internet and the web, and highlight the importance of making digital content available and usable for everyone. This journey through web accessibility essentials will not only enlighten us on the technical aspects but also inspire a shift in perspective towards a more inclusive digital future.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h3 id="what-does-accessible-web-mean">What Does &ldquo;Accessible Web&rdquo; Mean?</h3>
+<p>Initially, it&rsquo;s important not to confuse the Internet with the web. Although closely related, they perform distinct functions. The Internet, with its military origins, aims to connect computers globally, serving as a &ldquo;worldwide network of computers&rdquo;.</p>
+<p>On the other hand, the web emerged to facilitate the exchange of information beyond emails, overcoming compatibility barriers between different information systems. Thanks to Tim Berners-Lee, who created a standard for electronic documents at CERN, it became possible to share files on the Internet in a more structured way. Berners-Lee&rsquo;s innovation included the use of URLs and the interlinking of documents, transforming the web into a vast web of information accessible through browsers.</p>
+<h3 id="and-the-term-accessible">And the term &ldquo;accessible&rdquo;?</h3>
+<p>&ldquo;Accessible&rdquo; often brings to mind issues of physical disability, but its meaning goes beyond, indicating something that is easy to obtain, use, or understand. Accessibility, therefore, must ensure that everyone, regardless of physical or cognitive limitations, can access content and services.</p>
+<p>For example: not everything that is easy for an average adult is easy for a child, an elderly person, or a physically disabled person, and so on. Not everything accessible to a blind person is also accessible to a paraplegic or simply someone with a broken leg. Each person, regardless of whether they have a physical disability, has a different level of need to access something.</p>
+<p>Therefore, when we say something is accessible, it should mean that anyone, regardless of their need, will have ease in entering, approaching, climbing, using, etc.</p>
+<h3 id="and-the-accessible-web">And the &ldquo;Accessible Web&rdquo;?</h3>
+<p>An accessible web aspires to be a space where everyone can access content and services, including automated systems like search engines. This concept also covers the adaptability of web pages to different devices, such as smartphones and TVs. Digital accessibility considers various factors that can obstruct access to web content.</p>
+<p>In the following chapters, we will explore how to identify and solve accessibility problems on the web.</p>
+<h3 id="about-the-web-components-and-their-interdependence">About the web components and their interdependence</h3>
+<p>The web operates on the infrastructure of the Internet, consisting of cables, protocols, and devices. Beyond the Internet, the web is made of documents and systems (content), developers, content creation and validation tools, users, user agents (browsers and access devices), and assistive tools for people with special needs. The figure &ldquo;<a href="composants-web.jpg">web components</a>&rdquo; illustrates the interdependence between these web components.</p>
+<p><img src="web-components.jpg" alt="Web components and their interdependence" title="web components"></p>
+<p>For a comprehensive understanding of web accessibility, it is essential to know the components that constitute it and how they relate. This complex network includes:</p>
+<ul>
+<li>
+<p><strong>Developers:</strong> The digital architects who build the online world. They use a variety of creation and validation tools to produce web content, such as documents, videos, sites, and systems. Examples of these tools include code editors, development frameworks, and accessibility testing software, ensuring that the content meets global accessibility standards.</p>
+</li>
+<li>
+<p><strong>Content:</strong> The heart of the web, ranging from text pages to multimedia and interactive applications. This content needs to be created accessibly to ensure that all users, regardless of their abilities, can access and interact with it.</p>
+</li>
+<li>
+<p><strong>User Agents:</strong> The intermediaries between the content and the user. They include web browsers like Chrome, Firefox, and Safari, as well as specialized access devices, like smart TVs and voice assistants. User agents must be capable of interpreting and presenting content in an accessible manner.</p>
+</li>
+<li>
+<p><strong>Assistive Tools:</strong> Essential for many users with limitations, these tools act as a bridge between the content and the user&rsquo;s ability to access it. Screen readers, for example, convert text to speech, allowing blind or visually impaired people to access digital content. Other tools include specialized keyboards, switches, and voice recognition software.</p>
+</li>
+</ul>
+<p>The interaction between these components can be visualized as a chain of connections, where each link depends on the other to provide an accessible web experience. For instance, a developer might create an educational video and include captions and audio descriptions, using creation tools to ensure the content is accessible. This video, when published on the web, must be compatible with various user agents, from browsers to screen readers, ensuring all users, including those relying on assistive tools, can access the information.</p>
+<p>The relationship between these components is crucial for accessibility. For example, the effectiveness of assistive tools depends on the support of browsers and developers&rsquo; awareness of accessibility. Inaccessibility can arise when web content is not designed with all users in mind, including those who rely on keyboard navigation or screen readers.</p>
+<p>The interdependence of these components highlights the importance of a web designed to be universally accessible, ensuring everyone can navigate, understand, and interact with web content effectively.</p>
+<hr>
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/en/tags/academia/">academia</a>
+  
+  <a class="badge badge-light" href="/en/tags/accessibility/">accessibility</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://jalvesnicacio.github.io/">Jalves Nicacio</a></h5>
+      <h6 class="card-subtitle">Web developer | Computer science professor</h6>
+      <p class="card-text" itemprop="description">My research interests include web accessibility, programming learning, artificial intelligence, and programming languages.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/en/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/jalvesnicacio" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=VzfPAUQAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/jalvesnicacio" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Related</h3>
+        <ul>
+          
+          <li><a href="/en/post/accessibility/">What is the Web Accessibility Problem?</a></li>
+          
+        </ul>
+      </div>
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academia.min.6c2ba2801d406881b3c2277043cedd76.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+        <p class="powered-by">
+          <a href="/en/privacy/">Privacy Policy</a>
+        </p>
+        
+        <p class="mb-0">
+          Copyright © 2024 &middot; 
+          Powered by
+          <a href="https://gethugothemes.com" target="_blank" rel="noopener">Gethugothemes</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/Twitter" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="skype:echo123?call"  title="Skype Me"><i class="fab fa-skype" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://discourse.gohugo.io" target="_blank" rel="noopener" title="Discuss on Forum"><i class="fas fa-comments" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

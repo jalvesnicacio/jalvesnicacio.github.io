@@ -185,7 +185,7 @@
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/authors/admin/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-ca"
@@ -198,13 +198,13 @@
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/tags/academia/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/tags/accessibility/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/authors/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-ca"
@@ -217,7 +217,7 @@
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/categories/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-ca"
@@ -230,7 +230,7 @@
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/post/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-ca"
@@ -243,7 +243,7 @@
                 />
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/tags/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-ca"
@@ -255,8 +255,21 @@
                 href="https://jalvesnicacio.github.io/en/tags/"
                 />
   </url><url>
+    <loc>https://jalvesnicacio.github.io/en/post/accessibility2/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-ca"
+                href="https://jalvesnicacio.github.io/fr/post/accessibility2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://jalvesnicacio.github.io/en/post/accessibility2/"
+                />
+  </url><url>
     <loc>https://jalvesnicacio.github.io/en/categories/web-accessibility/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jalvesnicacio.github.io/en/post/accessibility/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
