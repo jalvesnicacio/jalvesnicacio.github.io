@@ -2,62 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Jalves Nicacio</title>
-    <link>https://jalvesnicacio.github.io/en/authors/</link>
+    <link>http://localhost:1313/en/authors/</link>
     <description>Recent content in Authors on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://jalvesnicacio.github.io/en/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/en/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://jalvesnicacio.github.io/en/authors/admin/</link>
-      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/en/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/en/authors/admin/</guid>
+      <guid>http://localhost:1313/en/authors/admin/</guid>
       <description>&lt;p&gt;I graduated in Computer Science from the Federal University of Alagoas, Brazil, in 2006 and completed my degree in Education (Professional Training) from the Universidade do Sul de Santa Catarina - UNISUL, Brazil (2010). Master in Computer Modeling of Knowledge at the Federal University of Alagoas, Brazil, obtained in 2018.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;My current research interests include informatics in education, programming learning, program comprehension, and software architecture.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Fabio Petrillo</title>
-      <link>https://jalvesnicacio.github.io/en/authors/fabio-petrillo/</link>
-      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://jalvesnicacio.github.io/en/authors/fabio-petrillo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bianca M. Napoleão</title>
-      <link>https://jalvesnicacio.github.io/en/authors/bianca-m.-napoleao/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jalvesnicacio.github.io/en/authors/bianca-m.-napoleao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demetrio Guilardi</title>
-      <link>https://jalvesnicacio.github.io/en/authors/demetrio-guilardi/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jalvesnicacio.github.io/en/authors/demetrio-guilardi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fabio Paraguaçu</title>
-      <link>https://jalvesnicacio.github.io/en/authors/fabio-paraguacu/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jalvesnicacio.github.io/en/authors/fabio-paraguacu/</guid>
-      <description></description>
     </item>
     
   </channel>

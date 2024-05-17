@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jalves Nicacio</title>
-    <link>https://jalvesnicacio.github.io/fr/categories/</link>
+    <link>http://localhost:1313/fr/categories/</link>
     <description>Recent content in Categories on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-ca</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 May 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://jalvesnicacio.github.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/fr/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Accessibilité Web</title>
-      <link>https://jalvesnicacio.github.io/fr/categories/accessibilite-web/</link>
-      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/fr/categories/accessibilite-web/</link>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/fr/categories/accessibilite-web/</guid>
+      <guid>http://localhost:1313/fr/categories/accessibilite-web/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>research</title>
-      <link>https://jalvesnicacio.github.io/fr/categories/research/</link>
+      <title>Research</title>
+      <link>http://localhost:1313/fr/categories/research/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/fr/categories/research/</guid>
+      <guid>http://localhost:1313/fr/categories/research/</guid>
       <description></description>
     </item>
     
