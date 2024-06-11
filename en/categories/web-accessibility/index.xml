@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Accessibility on Jalves Nicacio</title>
-    <link>https://jalvesnicacio.github.io/en/categories/web-accessibility/</link>
+    <link>http://localhost:1313/en/categories/web-accessibility/</link>
     <description>Recent content in Web Accessibility on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Thu, 16 May 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://jalvesnicacio.github.io/en/categories/web-accessibility/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/en/categories/web-accessibility/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Essentials of Web Accessibility</title>
-      <link>https://jalvesnicacio.github.io/en/post/accessibility2/</link>
+      <link>http://localhost:1313/en/post/accessibility2/</link>
       <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/en/post/accessibility2/</guid>
+      <guid>http://localhost:1313/en/post/accessibility2/</guid>
       <description>&lt;h1 id=&#34;the-essentials-of-web-accessibility&#34;&gt;The Essentials of Web Accessibility&lt;/h1&gt;
 &lt;p&gt;To effectively address web accessibility, it&amp;rsquo;s crucial to understand some basic concepts. Without this understanding, discussing the application of techniques in web page codes becomes less productive. These concepts are vital to recognize why certain sites are inaccessible to some people and what is being done to solve these issues.&lt;/p&gt;
 &lt;p&gt;In the digital age, where information and services are increasingly accessed online, the significance of web accessibility cannot be overstated. It stands not only as a technical requirement but as a fundamental right to ensure equal access for all, including those with disabilities. As we delve into the nuances of creating an inclusive online environment, it&amp;rsquo;s important to explore the roles of various web components—ranging from content creation to user interaction—and how they contribute to or hinder accessibility. By understanding these dynamics, we can begin to identify the barriers that prevent full participation in the digital world and the strategies to overcome them.&lt;/p&gt;
@@ -35,8 +35,8 @@
 &lt;p&gt;An accessible web aspires to be a space where everyone can access content and services, including automated systems like search engines. This concept also covers the adaptability of web pages to different devices, such as smartphones and TVs. Digital accessibility considers various factors that can obstruct access to web content.&lt;/p&gt;
 &lt;p&gt;In the following chapters, we will explore how to identify and solve accessibility problems on the web.&lt;/p&gt;
 &lt;h3 id=&#34;about-the-web-components-and-their-interdependence&#34;&gt;About the web components and their interdependence&lt;/h3&gt;
-&lt;p&gt;The web operates on the infrastructure of the Internet, consisting of cables, protocols, and devices. Beyond the Internet, the web is made of documents and systems (content), developers, content creation and validation tools, users, user agents (browsers and access devices), and assistive tools for people with special needs. The figure &amp;ldquo;&lt;a href=&#34;https://jalvesnicacio.github.io/fr/post/accessibility2/composants-web.jpg&#34;&gt;web components&lt;/a&gt;&amp;rdquo; illustrates the interdependence between these web components.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Web components and their interdependence&#34; src=&#34;https://jalvesnicacio.github.io/en/post/accessibility2/web-components.jpg&#34; title=&#34;web components&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The web operates on the infrastructure of the Internet, consisting of cables, protocols, and devices. Beyond the Internet, the web is made of documents and systems (content), developers, content creation and validation tools, users, user agents (browsers and access devices), and assistive tools for people with special needs. The figure &amp;ldquo;&lt;a href=&#34;http://localhost:1313/fr/post/accessibility2/composants-web.jpg&#34;&gt;web components&lt;/a&gt;&amp;rdquo; illustrates the interdependence between these web components.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Web components and their interdependence&#34; src=&#34;http://localhost:1313/en/post/accessibility2/web-components.jpg&#34; title=&#34;web components&#34;&gt;&lt;/p&gt;
 &lt;p&gt;For a comprehensive understanding of web accessibility, it is essential to know the components that constitute it and how they relate. This complex network includes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>What is the Web Accessibility Problem?</title>
-      <link>https://jalvesnicacio.github.io/en/post/accessibility/</link>
+      <link>http://localhost:1313/en/post/accessibility/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/en/post/accessibility/</guid>
+      <guid>http://localhost:1313/en/post/accessibility/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This article is drawn from the first chapter of my book, &amp;ldquo;Web Accessibility Techniques,&amp;rdquo; which I&amp;rsquo;ve adapted into a series focused on digital accessibility. While the original book was written in Portuguese, this series will be made available in both English and French. Through this series, we aim to shed light on the multifaceted challenges and solutions surrounding web accessibility, a cornerstone of inclusive digital environments.&lt;/p&gt;
 &lt;h2 id=&#34;the-ever-evolving-web&#34;&gt;The Ever-Evolving Web&lt;/h2&gt;

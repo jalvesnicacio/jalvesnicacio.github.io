@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jalves Nicacio</title>
-    <link>https://jalvesnicacio.github.io/en/</link>
+    <link>http://localhost:1313/en/</link>
     <description>Recent content on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://jalvesnicacio.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://jalvesnicacio.github.io/en/talk/</link>
+      <link>http://localhost:1313/en/talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/en/talk/</guid>
+      <guid>http://localhost:1313/en/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://jalvesnicacio.github.io/en/post/</link>
+      <link>http://localhost:1313/en/post/</link>
       <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/en/post/</guid>
+      <guid>http://localhost:1313/en/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://jalvesnicacio.github.io/en/publication/</link>
+      <link>http://localhost:1313/en/publication/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/en/publication/</guid>
+      <guid>http://localhost:1313/en/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://jalvesnicacio.github.io/en/slides/</link>
+      <link>http://localhost:1313/en/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/en/slides/</guid>
+      <guid>http://localhost:1313/en/slides/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://jalvesnicacio.github.io/en/privacy/</link>
+      <link>http://localhost:1313/en/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/en/privacy/</guid>
+      <guid>http://localhost:1313/en/privacy/</guid>
       <description>&lt;h1 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h1&gt;
 &lt;p&gt;Last updated: September 29, 2022&lt;/p&gt;
 &lt;p&gt;This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.&lt;/p&gt;
@@ -232,19 +232,19 @@
     
     <item>
       <title>Projects</title>
-      <link>https://jalvesnicacio.github.io/en/project/</link>
+      <link>http://localhost:1313/en/project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/en/project/</guid>
+      <guid>http://localhost:1313/en/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Authors</title>
-      <link>https://jalvesnicacio.github.io/en/authors/</link>
+      <link>http://localhost:1313/en/authors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/en/authors/</guid>
+      <guid>http://localhost:1313/en/authors/</guid>
       <description></description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Modelling  Process on Jalves Nicacio</title>
-    <link>https://jalvesnicacio.github.io/fr/tags/modelling--process/</link>
+    <link>http://localhost:1313/fr/tags/modelling--process/</link>
     <description>Recent content in Modelling  Process on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-ca</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://jalvesnicacio.github.io/fr/tags/modelling--process/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/fr/tags/modelling--process/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>An approach to build consistent software architecture diagrams using devops system descriptors</title>
-      <link>https://jalvesnicacio.github.io/fr/publication/sam-2022/</link>
+      <link>http://localhost:1313/fr/publication/sam-2022/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/fr/publication/sam-2022/</guid>
+      <guid>http://localhost:1313/fr/publication/sam-2022/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Short paper presented in ICPC 2021 Early Research Achievement (ERA) track.&lt;/p&gt;
 </description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Towards improving architectural diagram consistency using system descriptors (2021)</title>
-      <link>https://jalvesnicacio.github.io/fr/publication/icpc-2021/</link>
+      <link>http://localhost:1313/fr/publication/icpc-2021/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/fr/publication/icpc-2021/</guid>
+      <guid>http://localhost:1313/fr/publication/icpc-2021/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Short paper presented in ICPC 2021 Early Research Achievement (ERA) track.&lt;/p&gt;
 </description>

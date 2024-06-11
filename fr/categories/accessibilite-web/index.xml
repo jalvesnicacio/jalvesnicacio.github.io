@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Accessibilité Web on Jalves Nicacio</title>
-    <link>https://jalvesnicacio.github.io/fr/categories/accessibilite-web/</link>
+    <link>http://localhost:1313/fr/categories/accessibilite-web/</link>
     <description>Recent content in Accessibilité Web on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-ca</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Thu, 16 May 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://jalvesnicacio.github.io/fr/categories/accessibilite-web/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:1313/fr/categories/accessibilite-web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Les Fondamentaux de l&#39;Accessibilité Web</title>
-      <link>https://jalvesnicacio.github.io/fr/post/accessibility2/</link>
+      <link>http://localhost:1313/fr/post/accessibility2/</link>
       <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/fr/post/accessibility2/</guid>
+      <guid>http://localhost:1313/fr/post/accessibility2/</guid>
       <description>&lt;h1 id=&#34;les-fondamentaux-de-laccessibilité-web&#34;&gt;Les Fondamentaux de l&amp;rsquo;Accessibilité Web&lt;/h1&gt;
 &lt;p&gt;Pour aborder efficacement l&amp;rsquo;accessibilité web, il est crucial de comprendre certains concepts de base. Sans cette compréhension, discuter de l&amp;rsquo;application de techniques dans les codes des pages web devient moins productif. Ces concepts sont vitaux pour reconnaître pourquoi certains sites ne sont pas accessibles à certaines personnes et ce qui est fait pour résoudre ces problèmes.&lt;/p&gt;
 &lt;p&gt;À l&amp;rsquo;ère numérique, où les informations et les services sont de plus en plus accessibles en ligne, l&amp;rsquo;importance de l&amp;rsquo;accessibilité web ne peut être sous-estimée. Elle se présente non seulement comme une exigence technique mais aussi comme un droit fondamental pour garantir un accès égal pour tous, y compris pour les personnes handicapées. En explorant les nuances de la création d&amp;rsquo;un environnement en ligne inclusif, il est important d&amp;rsquo;examiner les rôles des différents composants du web — allant de la création de contenu à l&amp;rsquo;interaction utilisateur — et comment ils contribuent ou entravent l&amp;rsquo;accessibilité. En comprenant ces dynamiques, nous pouvons commencer à identifier les barrières qui empêchent une participation pleine et entière au monde numérique et les stratégies pour les surmonter.&lt;/p&gt;
@@ -33,8 +33,8 @@
 &lt;p&gt;Un web accessible aspire à être un espace où chacun peut accéder aux contenus et services, y compris les systèmes automatisés comme les moteurs de recherche. Ce concept couvre également l&amp;rsquo;adaptabilité des pages web à différents appareils, tels que les smartphones et les téléviseurs. L&amp;rsquo;accessibilité numérique prend en compte divers facteurs pouvant entraver l&amp;rsquo;accès au contenu web.&lt;/p&gt;
 &lt;p&gt;Dans les chapitres suivants, nous explorerons comment identifier et résoudre les problèmes d&amp;rsquo;accessibilité sur le web.&lt;/p&gt;
 &lt;h3 id=&#34;sur-les-composants-du-web-et-leur-interdépendance&#34;&gt;Sur les composants du web et leur interdépendance&lt;/h3&gt;
-&lt;p&gt;Le web fonctionne sur l&amp;rsquo;infrastructure de l&amp;rsquo;Internet, composée de câbles, protocoles et dispositifs. Au-delà de l&amp;rsquo;Internet, le web est constitué de documents et systèmes (contenu), développeurs, outils de création et de validation de contenu, utilisateurs, agents utilisateurs (navigateurs et dispositifs d&amp;rsquo;accès), et outils assistifs pour les personnes ayant des besoins spéciaux. La figure &amp;ldquo;&lt;a href=&#34;https://jalvesnicacio.github.io/fr/post/accessibility2/composants-web.jpg&#34;&gt;composants du web&lt;/a&gt;&amp;rdquo; illustre l&amp;rsquo;interdépendance entre ces composants du web.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Composants du web et leur interdépendance&#34; src=&#34;https://jalvesnicacio.github.io/fr/post/accessibility2/composants-web.jpg&#34; title=&#34;Composants du web&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Le web fonctionne sur l&amp;rsquo;infrastructure de l&amp;rsquo;Internet, composée de câbles, protocoles et dispositifs. Au-delà de l&amp;rsquo;Internet, le web est constitué de documents et systèmes (contenu), développeurs, outils de création et de validation de contenu, utilisateurs, agents utilisateurs (navigateurs et dispositifs d&amp;rsquo;accès), et outils assistifs pour les personnes ayant des besoins spéciaux. La figure &amp;ldquo;&lt;a href=&#34;http://localhost:1313/fr/post/accessibility2/composants-web.jpg&#34;&gt;composants du web&lt;/a&gt;&amp;rdquo; illustre l&amp;rsquo;interdépendance entre ces composants du web.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Composants du web et leur interdépendance&#34; src=&#34;http://localhost:1313/fr/post/accessibility2/composants-web.jpg&#34; title=&#34;Composants du web&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Pour une compréhension complète de l&amp;rsquo;accessibilité web, il est essentiel de connaître les composants qui la constituent et comment ils se rapportent. Ce réseau complexe comprend :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -59,10 +59,10 @@
     
     <item>
       <title>Quel est le problème de l&#39;accessibilité Web ?</title>
-      <link>https://jalvesnicacio.github.io/fr/post/accessibility/</link>
+      <link>http://localhost:1313/fr/post/accessibility/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jalvesnicacio.github.io/fr/post/accessibility/</guid>
+      <guid>http://localhost:1313/fr/post/accessibility/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Cet article est extrait du premier chapitre de mon livre, &amp;ldquo;Techniques d&amp;rsquo;Accessibilité Web&amp;rdquo;, que j&amp;rsquo;ai choisi d&amp;rsquo;adapter en une série dédiée à l&amp;rsquo;accessibilité numérique. Bien que le livre original soit en portugais, cette série d&amp;rsquo;articles sera disponible en anglais et en français. À travers cette série, nous aspirons à illuminer les nombreux défis et solutions relatifs à l&amp;rsquo;accessibilité web, un fondement essentiel des milieux numériques inclusifs.&lt;/p&gt;
 &lt;h2 id=&#34;le-web-en-constante-évolution&#34;&gt;Le Web en constante évolution&lt;/h2&gt;
