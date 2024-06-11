@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Jalves Nicacio</title>
-    <link>http://localhost:1313/fr/categories/research/</link>
+    <link>https://jalvesnicacio.github.io/fr/categories/research/</link>
     <description>Recent content in Research on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-ca</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/fr/categories/research/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jalvesnicacio.github.io/fr/categories/research/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Soutien pour les citations issues de dépôts GitHub.</title>
-      <link>http://localhost:1313/fr/post/github-citations/</link>
+      <link>https://jalvesnicacio.github.io/fr/post/github-citations/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/fr/post/github-citations/</guid>
+      <guid>https://jalvesnicacio.github.io/fr/post/github-citations/</guid>
       <description>&lt;h2 id=&#34;comment-faciliter-la-citation-de-votre-travail-par-les-autres-&#34;&gt;Comment faciliter la citation de votre travail par les autres ?&lt;/h2&gt;
 &lt;p&gt;Dans le travail académique, nous développons souvent des prototypes ou rendons des visualisations de données disponibles via des dépôts. Une manière de rendre ces artefacts de recherche disponibles est à travers la plateforme GitHub, qui nous permet non seulement de rendre publics des logiciels, prototypes, ou données, mais aussi de contrôler leur versionnement.&lt;/p&gt;
 &lt;p&gt;Cependant, lorsque nous écrivons un article et souhaitons référencer un dépôt GitHub, cela peut être un peu difficile de savoir comment mieux référencer ces dépôts. Avec cela à l&amp;rsquo;esprit, Github a récemment créé un moyen de soutenir officiellement les citations vers le dépôt de données ou de code. Cette nouvelle fonctionnalité, développée par GitHub, permet aux chercheurs et universitaires d&amp;rsquo;informer la communauté et les parties intéressées sur comment citer correctement leurs dépôts, spécialement dans les articles scientifiques.&lt;/p&gt;
@@ -34,7 +34,7 @@ version: 2.0.4
 doi: 10.5281/zenodo.1234
 date-released: 2021-08-11
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Vous pouvez également utiliser le site &lt;a href=&#34;https://citation-file-format.github.io/cff-initializer-javascript/&#34;&gt;cffinit&lt;/a&gt; pour remplir les informations de votre fichier de citation. Vous pouvez obtenir plus d&amp;rsquo;informations sur le format de fichier cff sur cette page : &lt;a href=&#34;https://citation-file-format.github.io/&#34;&gt;What is a CITATION.cff file?&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Cffinit website screenshot&#34; src=&#34;http://localhost:1313/fr/post/github-citations/cffinit-screen.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Cffinit website screenshot&#34; src=&#34;https://jalvesnicacio.github.io/fr/post/github-citations/cffinit-screen.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
