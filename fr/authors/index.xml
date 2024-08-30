@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Jalves Nicacio</title>
-    <link>http://localhost:1313/fr/authors/</link>
+    <link>https://jalvesnicacio.github.io/fr/authors/</link>
     <description>Recent content in Authors on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-ca</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     
-	    <atom:link href="http://localhost:1313/fr/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jalvesnicacio.github.io/fr/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://localhost:1313/fr/authors/admin/</link>
+      <link>https://jalvesnicacio.github.io/fr/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/fr/authors/admin/</guid>
+      <guid>https://jalvesnicacio.github.io/fr/authors/admin/</guid>
       <description>&lt;p&gt;J&amp;rsquo;ai obtenu mon diplôme en Informatique de l&amp;rsquo;Université fédérale d&amp;rsquo;Alagoas, au Brésil, en 2006, et j&amp;rsquo;ai terminé ma licence en Éducation (Formation professionnelle) à l&amp;rsquo;Universidade do Sul de Santa Catarina - UNISUL, au Brésil, en 2010. En 2018, j&amp;rsquo;ai obtenu mon diplôme de master en Modélisation Informatique des Connaissances de l&amp;rsquo;Université fédérale d&amp;rsquo;Alagoas, au Brésil.&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Mes intérêts de recherche actuels incluent l&amp;rsquo;informatique dans l&amp;rsquo;éducation, l&amp;rsquo;apprentissage de la programmation, la compréhension des programmes et l&amp;rsquo;architecture logicielle.&lt;/p&gt;

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Jalves Nicacio</title>
-    <link>http://localhost:1313/fr/publication_types/1/</link>
+    <link>https://jalvesnicacio.github.io/fr/publication_types/1/</link>
     <description>Recent content in 1 on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-ca</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/fr/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jalvesnicacio.github.io/fr/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>An approach to build consistent software architecture diagrams using devops system descriptors</title>
-      <link>http://localhost:1313/fr/publication/sam-2022/</link>
+      <link>https://jalvesnicacio.github.io/fr/publication/sam-2022/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/fr/publication/sam-2022/</guid>
+      <guid>https://jalvesnicacio.github.io/fr/publication/sam-2022/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Short paper presented in ICPC 2021 Early Research Achievement (ERA) track.&lt;/p&gt;
 </description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Towards improving architectural diagram consistency using system descriptors (2021)</title>
-      <link>http://localhost:1313/fr/publication/icpc-2021/</link>
+      <link>https://jalvesnicacio.github.io/fr/publication/icpc-2021/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/fr/publication/icpc-2021/</guid>
+      <guid>https://jalvesnicacio.github.io/fr/publication/icpc-2021/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Short paper presented in ICPC 2021 Early Research Achievement (ERA) track.&lt;/p&gt;
 </description>
@@ -36,20 +36,20 @@
     
     <item>
       <title>AndroidPropTracker: mining lifetime properties of Android projects (2020)</title>
-      <link>http://localhost:1313/fr/publication/mobilesoft-2020-2/</link>
+      <link>https://jalvesnicacio.github.io/fr/publication/mobilesoft-2020-2/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/fr/publication/mobilesoft-2020-2/</guid>
+      <guid>https://jalvesnicacio.github.io/fr/publication/mobilesoft-2020-2/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 </description>
     </item>
     
     <item>
       <title>Are apps ready for new Android releases? (2020)</title>
-      <link>http://localhost:1313/fr/publication/mobilesoft-2020-1/</link>
+      <link>https://jalvesnicacio.github.io/fr/publication/mobilesoft-2020-1/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/fr/publication/mobilesoft-2020-1/</guid>
+      <guid>https://jalvesnicacio.github.io/fr/publication/mobilesoft-2020-1/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 </description>
     </item>

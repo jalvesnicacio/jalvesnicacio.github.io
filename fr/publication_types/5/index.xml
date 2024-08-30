@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5 on Jalves Nicacio</title>
-    <link>http://localhost:1313/fr/publication_types/5/</link>
+    <link>https://jalvesnicacio.github.io/fr/publication_types/5/</link>
     <description>Recent content in 5 on Jalves Nicacio</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-ca</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Wed, 01 Sep 2010 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/fr/publication_types/5/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jalvesnicacio.github.io/fr/publication_types/5/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Técnicas de Acessibilidade Web: Criando uma Web para todos (2010)</title>
-      <link>http://localhost:1313/fr/publication/acessibilidade-web/</link>
+      <link>https://jalvesnicacio.github.io/fr/publication/acessibilidade-web/</link>
       <pubDate>Wed, 01 Sep 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/fr/publication/acessibilidade-web/</guid>
+      <guid>https://jalvesnicacio.github.io/fr/publication/acessibilidade-web/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
