@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+
+<head>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NS0E950WRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NS0E950WRL');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.124.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jalves Nicacio">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Cet article présente les directives d’accessibilité du contenu Web (WCAG 2.2) développées par le W3C, en expliquant leur organisation en principes, directives, critères de succès et techniques. Il décrit comment ces normes aident les développeurs à créer du contenu accessible, en mettant en avant les aspects clés de l’accessibilité numérique.">
+
+  
+  <link rel="alternate" hreflang="fr-ca" href="https://jalvesnicacio.github.io/fr/post/accessibility3/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#fc6f5c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.70f21e8c0d158a1bd5336ef971431345.css">
+
+  
+
+  
+  
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'G-NS0E950WRL', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://jalvesnicacio.github.io/fr/post/accessibility3/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@jalvesnicacio">
+  <meta property="twitter:creator" content="@jalvesnicacio">
+  
+  <meta property="og:site_name" content="Jalves Nicacio">
+  <meta property="og:url" content="https://jalvesnicacio.github.io/fr/post/accessibility3/">
+  <meta property="og:title" content="Directives pour la création de contenu accessible | Jalves Nicacio">
+  <meta property="og:description" content="Cet article présente les directives d’accessibilité du contenu Web (WCAG 2.2) développées par le W3C, en expliquant leur organisation en principes, directives, critères de succès et techniques. Il décrit comment ces normes aident les développeurs à créer du contenu accessible, en mettant en avant les aspects clés de l’accessibilité numérique."><meta property="og:image" content="https://jalvesnicacio.github.io/fr/post/accessibility3/featured.jpg">
+  <meta property="twitter:image" content="https://jalvesnicacio.github.io/fr/post/accessibility3/featured.jpg"><meta property="og:locale" content="fr-ca">
+  
+  <meta property="article:published_time" content="2024-09-12T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2024-09-12T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Directives pour la création de contenu accessible | Jalves Nicacio</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Rechercher</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/fr/">Jalves Nicacio</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Ouvrir la barre de navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/#about"><span>Accueil</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/fr/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article py-5" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container split-header">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+        <img class="img-fluid w-100" src="/fr/post/accessibility3/featured_hu30b061798619543c8ea12d04ac03d086_341602_680x500_fill_q90_lanczos_smart1.jpg" itemprop="image" alt="">
+        <span
+          class="article-header-caption">Crédit d&rsquo;image: <a href="https://theamericangenius.com/business-marketing/gloves-that-translate-sign-language-in-real-time/"><strong>The American Genius</strong></a></span>
+    </div>
+    <div class="col-lg-8">
+      <h1 itemprop="name">Directives pour la création de contenu accessible</h1>
+
+      
+      <p class="page-subtitle">Directives WCAG 2.2 : Un guide pour une accessibilité numérique inclusive</p>
+      
+
+      
+
+
+
+<meta content="2024-09-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2024-09-12 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/fr/authors/admin/">Jalves Nicacio</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date" style="float:right;">
+    
+    
+      
+    
+    <time>Sep 12, 2024</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min de lecture
+  </span>
+  
+
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    <a href="">Accessibilité Web</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://jalvesnicacio.github.io/fr/post/accessibility3/&amp;text=Directives%20pour%20la%20cr%c3%a9ation%20de%20contenu%20accessible" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://jalvesnicacio.github.io/fr/post/accessibility3/&amp;t=Directives%20pour%20la%20cr%c3%a9ation%20de%20contenu%20accessible" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Directives%20pour%20la%20cr%c3%a9ation%20de%20contenu%20accessible&amp;body=https://jalvesnicacio.github.io/fr/post/accessibility3/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://jalvesnicacio.github.io/fr/post/accessibility3/&amp;title=Directives%20pour%20la%20cr%c3%a9ation%20de%20contenu%20accessible" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>Dans l&rsquo;article précédent, nous avons constaté que le manque d&rsquo;accès aux pages Web résulte généralement de défaillances dans l&rsquo;interaction entre les composants Utilisateur et Contenu. Cette difficulté est souvent le résultat d&rsquo;une relation défaillante entre deux ou plusieurs composants du Web. Par exemple, une connexion faible entre le développeur et l&rsquo;outil de création peut entraîner la production d&rsquo;un contenu mal conçu. Cette situation peut être encore aggravée si les outils de validation de contenu ne suivent pas des règles claires pour évaluer le contenu de manière appropriée. Par conséquent, la solution la plus efficace pour garantir que tous les composants fonctionnent en harmonie est d&rsquo;établir un ensemble de règles mettant en évidence les points critiques de l&rsquo;accessibilité.</p>
+<p>Actuellement, il existe divers documents internationaux qui proposent des règles d&rsquo;accessibilité pour le Web, dans le but de guider les développeurs d&rsquo;outils de création, d&rsquo;outils d&rsquo;évaluation et de développeurs de contenu. Cependant, tous ces documents se basent sur les directives du W3C. C&rsquo;est pourquoi, dans cet article, nous aborderons les points fondamentaux des directives de l&rsquo;Initiative pour l&rsquo;Accessibilité du Web (WAI) du W3C et discuterons brièvement de leur organisation.</p>
+<h1 id="directives-du-w3c-pour-laccessibilité-du-contenu-numérique">Directives du W3C pour l’accessibilité du contenu numérique</h1>
+<p>Le World Wide Web Consortium (W3C) est une organisation largement reconnue pour son rôle dans l’élaboration de documents spécifiant des technologies spécialement créées pour le Web, comme le HTML, le XHTML, le CSS, entre autres. Ces spécifications sont essentielles pour garantir l’interopérabilité et l’évolution continue du Web.</p>
+<p>L’objectif principal du W3C est de développer des normes technologiques permettant la création et l’interprétation de contenus sur le Web de manière accessible et universelle. L’idée centrale est que les sites et les applications Web construits selon ces normes soient accessibles à toute personne ou technologie, quel que soit le matériel ou le logiciel utilisé.</p>
+<p>Grâce à l’Initiative pour l’accessibilité du Web (WAI), le W3C développe des directives axées sur l’accessibilité du Web. Ces directives sont spécifiques à différents groupes de composants, garantissant que chacun puisse profiter du Web de manière équitable.</p>
+<p>Ces groupes de composants incluent les fabricants d’outils de création, les développeurs de navigateurs et, bien entendu, les créateurs de contenu Web. Chacun d&rsquo;eux dispose d&rsquo;un ensemble de directives spécifiques visant à faciliter la création et l&rsquo;accès à des contenus accessibles, comme décrit ci-dessous. Il existe des directives spécifiques pour différents groupes de composants :</p>
+<ul>
+<li>
+<p><strong>ATAG (Authoring Tool Accessibility Guidelines)</strong> – Les directives ATAG sont destinées aux fabricants d&rsquo;outils de création de contenu, tels qu’Adobe et Microsoft. Elles guident les fabricants à intégrer des fonctionnalités dans leurs produits pour aider les développeurs de contenu à suivre les recommandations décrites dans les WCAG. Des exemples d&rsquo;outils de création de contenu incluent Adobe Dreamweaver et Microsoft Word. Le groupe de travail de l&rsquo;ATAG est composé de spécialistes en développement d&rsquo;outils de création, de chercheurs en accessibilité et de représentants de l&rsquo;industrie du logiciel. Actuellement, l&rsquo;objectif principal de l&rsquo;ATAG est de garantir que les outils de création permettent non seulement de produire du contenu accessible, mais qu&rsquo;ils soient également accessibles à tous les utilisateurs, y compris les personnes handicapées. Par exemple, s&rsquo;assurer que les fonctions de mise en forme dans un éditeur de texte puissent être utilisées par des personnes ayant des limitations motrices.</p>
+</li>
+<li>
+<p><strong>UAAG (User Agent Accessibility Guidelines)</strong> – Les directives UAAG s&rsquo;adressent aux développeurs de navigateurs Web et de lecteurs multimédias, tels que Google Chrome, Mozilla Firefox et VLC Media Player, en couvrant également certains aspects des technologies d&rsquo;assistance. Le groupe de travail de l’UAAG comprend des développeurs de navigateurs, des experts en technologies d’assistance et des représentants d’organisations de défense des droits des personnes handicapées. Actuellement, ce groupe se concentre sur la garantie que les navigateurs et les lecteurs multimédias soient compatibles avec les technologies d’assistance, telles que les lecteurs d&rsquo;écran (ex. : JAWS ou NVDA), et offrent une expérience utilisateur inclusive et accessible, comme le support des sous-titres dans les lecteurs vidéo pour les utilisateurs sourds ou malentendants.</p>
+</li>
+<li>
+<p><strong>WCAG (Web Content Accessibility Guidelines)</strong> – Les directives WCAG s&rsquo;adressent au contenu des pages Web et sont principalement utilisées par les développeurs de sites Web. Les fabricants d&rsquo;outils de création et d&rsquo;évaluation, tels que WAVE et Axe, consultent également ce document pour affiner le fonctionnement de leurs produits et améliorer leur conformité avec le travail réalisé par les développeurs de contenu. Le groupe de travail des WCAG est composé d&rsquo;experts en accessibilité, de développeurs Web, d&rsquo;universitaires et de représentants d&rsquo;organisations promouvant l&rsquo;inclusion numérique. Actuellement, les WCAG se concentrent sur l&rsquo;élargissement de leurs directives pour couvrir les nouvelles technologies et plateformes émergentes, telles que l&rsquo;accessibilité dans les applications d&rsquo;intelligence artificielle et de réalité augmentée, assurant ainsi que l&rsquo;accessibilité continue d&rsquo;évoluer avec le développement du Web. Un exemple d&rsquo;application des directives WCAG serait de s&rsquo;assurer que tout le texte sur un site ait un contraste suffisant par rapport à l&rsquo;arrière-plan, afin d&rsquo;être lisible par les personnes malvoyantes.</p>
+</li>
+</ul>
+<h1 id="directives-pour-laccessibilité-des-contenus-web">Directives pour l’accessibilité des contenus Web</h1>
+<p>Toutes ces directives ont été fondées sur les spécifications techniques du Web, telles que HTML, XML, CSS, SVG et SMIL, qui sont continuellement développées et améliorées par le W3C. La première version des Directives pour l’accessibilité du contenu Web (WCAG) a été publiée en 1999, marquant une étape fondamentale pour garantir que le contenu Web soit accessible à tous, y compris aux personnes en situation de handicap. Depuis lors, les WCAG ont été largement utilisées, citées et référencées dans des législations, des normes et des documents sur l’accessibilité numérique dans le monde entier. Au fil des années, de nouvelles versions des WCAG ont été publiées, notamment la WCAG 2.0 en 2008, la WCAG 2.1 en 2018 et la WCAG 2.2 en 2023, reflétant l’engagement continu du W3C à garantir que le Web évolue de manière inclusive.</p>
+<p>La version la plus récente des Directives pour l’accessibilité des contenus Web (WCAG 2.2) est organisée en plusieurs couches de conseils pour aider les auteurs et les développeurs à créer du contenu accessible. Au sommet se trouvent les quatre principes fondamentaux qui sous-tendent l’accessibilité du Web : perceptible, utilisable, compréhensible et robuste. Ces principes constituent la base pour garantir que le contenu Web soit accessible aux utilisateurs ayant différents types de handicaps.</p>
+<p>Sous ces principes, il y a 13 directives qui définissent des objectifs généraux et servent de guide pour aider les auteurs à comprendre comment rendre le contenu plus accessible. Les directives elles-mêmes ne sont pas testables, mais chacune d’elles est accompagnée de critères de réussite, qui sont testables et permettent d’évaluer la conformité. Ces critères de réussite sont organisés en trois niveaux de conformité : Niveau A (le plus basique), Niveau AA et Niveau AAA (le plus élevé).</p>
+<p>De plus, la WCAG 2.2 propose une série de techniques suffisantes et de techniques de conseil. Les techniques suffisantes aident les auteurs à répondre aux critères de réussite, tandis que les techniques de conseil vont au-delà des exigences minimales en abordant des obstacles supplémentaires à l’accessibilité. Les échecs communs qui doivent être évités sont également documentés. Cette structure en couches – principes, directives, critères de réussite et techniques – fournit une orientation complète pour la création de contenu accessible et encourage les auteurs à appliquer toutes les techniques possibles pour répondre aux besoins du plus grand nombre d’utilisateurs.</p>
+<p>Dans des articles futurs, nous examinerons en détail chacune des 13 directives des WCAG 2.2, en mettant en lumière les aspects techniques qui leur sont associés. Notre objectif est de fournir une compréhension approfondie de la manière d’implémenter ces directives en pratique, afin de garantir que le contenu numérique réponde aux critères d’accessibilité et offre une expérience inclusive à tous les utilisateurs. En abordant chaque directive, nous présenterons également des exemples concrets et des techniques qui peuvent être appliqués pour améliorer l’accessibilité dans différents contextes numériques.</p>
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/fr/tags/wcag/">WCAG</a>
+  
+  <a class="badge badge-light" href="">accessibilité</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://jalvesnicacio.github.io/">Jalves Nicacio</a></h5>
+      <h6 class="card-subtitle">Développeur Web | Professeur d&rsquo;informatique</h6>
+      <p class="card-text" itemprop="description">Mes domaines de recherche comprennent l&rsquo;accessibilité web, l&rsquo;apprentissage de la programmation, l&rsquo;intelligence artificielle et les langages de programmation.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/fr/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/jalvesnicacio" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=VzfPAUQAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/jalvesnicacio" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Sur le même sujet</h3>
+        <ul>
+          
+          <li><a href="/fr/post/accessibility2/">Les Fondamentaux de l&#39;Accessibilité Web</a></li>
+          
+          <li><a href="/fr/post/accessibility/">Quel est le problème de l&#39;accessibilité Web ?</a></li>
+          
+        </ul>
+      </div>
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academia.min.6c2ba2801d406881b3c2277043cedd76.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+        <p class="powered-by">
+          <a href="/fr/privacy/">Politique de confidentialité</a>
+        </p>
+        
+        <p class="mb-0">
+          Copyright © 2024 &middot; 
+          Powered by
+          <a href="https://gethugothemes.com" target="_blank" rel="noopener">Gethugothemes</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/Twitter" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="skype:echo123?call"  title="Skype Me"><i class="fab fa-skype" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://discourse.gohugo.io" target="_blank" rel="noopener" title="Discuss on Forum"><i class="fas fa-comments" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copier
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Télécharger
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
